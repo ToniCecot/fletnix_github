@@ -1,7 +1,7 @@
 // JS - uf_1306_PROJECTE FLETNIX
 
 
-var url_pelis="http://localhost/UF_1306_PROVES_FUNCIONALITAT/projecte_fletnix/pellicules/php/pellicules_list.php"
+var url_pelis="php/pellicules_list.php"
 $.getJSON(url_pelis, function(pelis){         // crida al fitxer JSON
 	console.log(pelis);
 	
